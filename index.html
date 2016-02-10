@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+	<title>Horoscope</title>
+	<link href="img/favicon.ico" rel="icon">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="container-fluid">
+
+	<h1 class="title">HOROSCOPES </h1>
+		<div class="row">
+			<div class="col-md-6 icon-group">
+				
+				<div class="cool-hover" id="Pisces"><a href="#" onclick="getHoro(1)"><img class="horoIcon" src="img/pis.png"></a><br></div>
+				<div class="cool-hover" id="Aquarius"><a href="#"onclick="getHoro(2)"><img class="horoIcon" src="img/aqu.png"></a></div>
+				<div class="cool-hover" id="Capricorn"><a href="#"onclick="getHoro(3)"><img class="horoIcon" src="img/cap.png"></a></div>
+				<div class="cool-hover" id="sagittarius"><a href="#" onclick="getHoro(4)"><img class="horoIcon" src="img/sag.png"></a></div><br>
+				<div class="cool-hover" id="scorpio"><a href="#"onclick="getHoro(5)"><img class="horoIcon" src="img/scorp.png"></a></div>
+				<div class="cool-hover" id="libra"><a href="#"onclick="getHoro(6)"><img class="horoIcon" src="img/libra.png"></a></div>
+				<div class="cool-hover" id="virgo"><a href="#"onclick="getHoro(7)"><img class="horoIcon" src="img/virgo.png"></a></div>
+				<div class="cool-hover" id="leo"><a href="#"onclick="getHoro(8)"><img class="horoIcon" src="img/leo.png"></a></div><br>
+				<div class="cool-hover" id="cancer"><a href="#"onclick="getHoro(9)"><img class="horoIcon" src="img/can.png"></a></div>
+				<div class="cool-hover" id="gemini"><a href="#"onclick="getHoro(10)"><img class="horoIcon" src="img/gem.png"></a></div>
+				<div class="cool-hover" id="taurus"><a href="#"onclick="getHoro(11)"><img class="horoIcon" src="img/taurus.png"></a></div>
+				<div class="cool-hover" id="aries"><a href="#"onclick="getHoro(12)"><img class="horoIcon" src="img/aries.png"></a></div>
+		</div>
+
+		<div class="col-md-6 horoscope-content">
+			<h1 id="zodiac"></h2>
+			<p id="fortune"></p>
+		</div>
+
+	</div>
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
