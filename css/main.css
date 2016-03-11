@@ -20,7 +20,7 @@ body {
 
 .cool-hover {
 	display: inline-block;
-	background-image: linear-gradient(to right, transparent 50%, #7313D3 50%);
+	background-image: linear-gradient(to right, transparent 50%, #6959cd 50%);
 	background-size: 200%;
 	transition: all 0.4s;
 }
